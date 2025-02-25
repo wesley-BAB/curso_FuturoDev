@@ -8,6 +8,8 @@ public class VerificaImparPar {
 
         System.out.print("Digite um número: ");
         int numero = scan.nextInt();
+
+        //VERIFICACAO NORMAL
         if(numero % 2 == 0){
             System.out.println("Número PAR!");
         }else{
