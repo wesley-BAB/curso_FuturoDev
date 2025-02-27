@@ -18,7 +18,7 @@ public class vetores {
             System.out.println("Nota " + (i+1) + ": " + notas[i]);
         }
 
-        //FOR EACH 
+        //FOR EACH
         int indice = 1;
         for(double nota : notas){
             System.out.println("Nota " + indice + " foreach: "+nota);
@@ -27,3 +27,5 @@ public class vetores {
 
     }
 }
+
+
