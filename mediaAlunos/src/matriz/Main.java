@@ -11,7 +11,7 @@ public class Main {
             (1,0)(1,1)(1,2)
          */
 
-        valores[1][1] = 10;
+        valores[1][1] = 10; 
 
         System.out.println("Valor Armazenado: " + valores[1][1]);
     }
