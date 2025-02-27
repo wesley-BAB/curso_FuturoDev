@@ -10,7 +10,7 @@ public class vetores {
 
         //FOR CONVENCIONAL
         for(int i = 0; i < notas.length; i++) {
-            System.out.println("Digite a Nota " + (i+1) + ":");
+            System.out.println("Digite a Nota  " + (i+1) + ":");
             notas[i] = scan.nextDouble();
         }
 
