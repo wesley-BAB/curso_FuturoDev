@@ -14,9 +14,9 @@ public class Main {
 
         double salario = horasTrabalhadas*valorHora;
 
-        System.out.printf("O funcionário " + nomeFuncionario +
-                      " trabalhou " + horasTrabalhadas +
-                      " horas, e portanto possui R$"+ salario + " a receber");
+        System.out.printf("O funcionário %s trabalhou %d horas, e portanto possui R$%.2f a receber%n",
+                nomeFuncionario, horasTrabalhadas, salario);
+
 
     }
 }
