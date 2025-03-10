@@ -1,0 +1,25 @@
+--Inicia o Git
+	git init
+
+--Configura nome e email
+	git config user.name "Wesley Benevides"
+	git config user.email "wesley.bene16@gmail.com"
+
+--Altera o nome da minha branch para o padrão git
+	git branch m main
+
+--Exibe alterações do git
+	git status
+
+--Area de staging, area temporária
+	git add . --Todos os arquivos 
+	git add nome arquivos -- arquivo único
+
+--Commit
+	git commit -m "Título do commit" -m "Descrição do commit"
+
+--logs de commits	
+	git log
+
+
+
